@@ -7,7 +7,7 @@
 
 Badge [source](https://shields.io/)
 
-![Red Wine](https://learn.wineenthusiast.com/wp-content/uploads/2019/09/HeaderImage.svg)
+![Red Wine](https://img.freepik.com/premium-vector/measuring-sugar-blood-with-glucometer-testing-blood-glucose-hypoglycemia-diabetes-diagnosis-patient-with-test-equipment-syringe-vial-insulin-pills-world-diabetic-awareness-day_458444-521.jpg?w=2000)
 This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business when importing. Via machine learning techniques, we can classify and predict the quality in advance. By evaluating the model performance, we can make better decisions and thus maximize profits in advance.
 Overall, the Radom Forest classification model maximizes profits the most. Considering the non-ml and ml model, ml model always performs better than the non-ml model under different true positive rate conditions. 
 
