@@ -62,16 +62,14 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
    
 The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance. However, the model performance is highly associated with the data type. Several models were included for further evaluation:
 
-* Linear Regression
-* LASSO Regression
-* Ridge Regression
-* Elastic Net
-* Decision Tree Regression
-* Support Vector Regression
-* K-Nearest Neighbors Regression
-* Random Forest Regression
-* Gradient Boosting Regression (e.g., XGBoost)
-* Neural Network Regression
+* SVM
+* Logistic regression
+* KNN
+* Decision Tree
+* Random Forest
+* Random Forest with Tuning
+* Adaboost
+
   
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
