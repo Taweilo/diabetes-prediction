@@ -1,7 +1,7 @@
 # ⚡⚡ Diabetes_Prediction 🩺🩺
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
-![GitHub last commit](https://img.shields.io/github/last-commit/Taweilo/Red_Wine_Quality_Classification_Model)
-![GitHub repo size](https://img.shields.io/github/repo-size/Taweilo/Red_Wine_Quality_Classification_Model)
+![GitHub last commit](https://img.shields.io/github/last-commit/Taweilo/Diabetes_Prediction)
+![GitHub repo size](https://img.shields.io/github/repo-size/Taweilo/Diabetes_Prediction)
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -12,14 +12,16 @@ This project will follow the Business Analysis (BA) workflow to address diabetes
 
 ```
 ├── Image
-│   ├── business value.jpg                        <- image used in the README.
-│   ├── data statistics.jpg                       <- data statistics summary used in the README.
-│   ├── evaluation.jpg                            <- model summary table used in the README.
-│   ├── heatmap.jpg                               <- heatmap image used in the README.
-│   ├── quality distribution.jpg                  <- quality distribution image used in the README.                             
+│   ├── 2.1 Dataset.jpg                           <- dataset image used in the README.
+│   ├── 2.2 Statistics.jpg                        <- data statistics summary used in the README.
+│   ├── 2.3 Outcome distribution.jpg              <- outcome distribution image used in the README.
+│   ├── 2.4 Pairplot.jpg                          <- pairplot image used in the README.
+│   ├── 5.1 Evaluation.jpg                        <- model summary table used in the README.                            
 │
-├── Red Wine Classification Project.ipynb         <- code
-├── WineQT.csv                                    <- dataset
+├── Code_Diabetes_Prediction.ipynb                <- code
+├── Data_diabetes.csv                             <- dataset
+├── LICENSE                                       <- MIT license
+├── README.md                                     <- read me
 ```
 
 ## 1. Business Understanding
@@ -28,7 +30,7 @@ This project will follow the Business Analysis (BA) workflow to address diabetes
 The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Data_diabetes.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. [[The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.]]
 
 * Original Dataset
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/original%20dataset.jpg" width="400">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="400">
  
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -43,10 +45,13 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 | **Outcome** | target | binary | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
 
 * Statistics
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/statistics.jpg" width="300">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="300">
  
 * Pairplot
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/pairplot.jpg" width="400">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="1100">
+
+* Outcome Distribution
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="300">
  
 ## 3. Data Preparation 
 1. Define variables (X and y) 
@@ -67,7 +72,7 @@ The trade-off between interpretability and performance of these ML models. Highl
 * Random Forest with Tuning
   
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.1%20Evaluation.jpg" width="500" >
 
 
 
