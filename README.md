@@ -8,10 +8,7 @@
 Badge [source](https://shields.io/)
 
  <img src="https://meddo.in/blog/wp-content/uploads/2020/09/onpage_Book-diagnostic-test-online-1024x575.jpeg" width="1000" height="450">
-This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business when importing. Via machine learning techniques, we can classify and predict the quality in advance. By evaluating the model performance, we can make better decisions and thus maximize profits in advance.
-Overall, the Radom Forest classification model maximizes profits the most. Considering the non-ml and ml model, ml model always performs better than the non-ml model under different true positive rate conditions. 
-
-### Repository structure
+This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. By leveraging modeling, we aim to classify and predict the disease based on input features. The health industry can consult this model for more informed decision-making.
 
 ```
 ├── Image
@@ -28,25 +25,26 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 ## 1. Business Understanding
 
 ## 2. Data Understanding 
-The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
+The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Data_diabetes.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. [[The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.]]
 
 * Original Dataset
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/original%20dataset.jpg" width="400">
  
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
-| **TV** | input | float | TV promotion budget (in million) |
-| **Radio** | input | float | Radio promotion budget (in million) |
-| **Social Media** | input | float | Social Media promotion budget (in million) |
-| **Influencer** | input | Object | Type of Influencers |
-| **Sales** | target | float | Sales in million |
+| **Pregnancies** | input | int64 | To express the Number of pregnancies of the patient |
+| **Glucose** | input | int64 | To express the Glucose level in the blood of the patient|
+| **BloodPressure** | input | int64 | To express the Blood pressure measurement of the patient |
+| **SkinThickness** | input | int64 | To express the thickness of the skin of the patient |
+| **Insulin** | input | int64| To express the Insulin level in the blood of the patient |
+| **BMI** | input | float64 | To express the Body mass index of the patient |
+| **DiabetesPedigreeFunction** | input | float64  | To express the Diabetes percentage of the patient |
+| **Age** | input | float | To express the age of the patient |
+| **Outcome** | target | binary | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
 
 * Statistics
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/statistics.jpg" width="300">
  
-* Heatmap
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/heatmap.jpg" width="300">
-
 * Pairplot
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/pairplot.jpg" width="400">
  
