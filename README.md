@@ -8,15 +8,17 @@
 Badge [source](https://shields.io/)
 
  <img src="https://meddo.in/blog/wp-content/uploads/2020/09/onpage_Book-diagnostic-test-online-1024x575.jpeg" width="1100" height="450">
-This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. By leveraging modeling, we aim to classify and predict the disease based on input features. The health industry can consult this model for more informed decision-making.
+This project will follow the Business Analysis (BA) workflow to address diabetes diagnosis using data mining techniques. The business problem at hand is to create a machine-learning model that can accurately predict the likelihood of a patient having diabetes based on the provided features. This model can be utilized by healthcare professionals to assess the risk of diabetes in patients and provide appropriate medical interventions and advice.
 
 ```
 ├── Image
-│   ├── 2.1 Dataset.jpg                           <- dataset image used in the README.
-│   ├── 2.2 Statistics.jpg                        <- data statistics summary used in the README.
-│   ├── 2.3 Outcome distribution.jpg              <- outcome distribution image used in the README.
-│   ├── 2.4 Pairplot.jpg                          <- pairplot image used in the README.
-│   ├── 5.1 Evaluation.jpg                        <- model summary table used in the README.                            
+│   ├── 2.1 Dataset.jpg                           <- dataset image used in the README
+│   ├── 2.2 Statistics.jpg                        <- data statistics summary used in the README
+│   ├── 2.3 Outcome distribution.jpg              <- outcome distribution image used in the README
+│   ├── 2.4 Pairplot.jpg                          <- pairplot image used in the README
+│   ├── 5.1 Evaluation.jpg                        <- model summary table used in the README
+│   ├── 5.2 RF Confusion matrix.jpg               <- RF Confusion matrix used in the README
+│   ├── 5.3 Feature importance.jpg                <- RF feature importance used in the README                          
 │
 ├── Code_Diabetes_Prediction.ipynb                <- code
 ├── Data_diabetes.csv                             <- dataset
@@ -25,14 +27,15 @@ This project will follow the Business Analysis (BA) workflow to address diabetes
 ```
 
 ## 1. Business Understanding
+The goal of this project is to develop a predictive model for diabetes based on various medical attributes of patients. The dataset contains information about patients, including their number of pregnancies, glucose level, blood pressure, skin thickness, insulin level, body mass index (BMI), diabetes pedigree function, age, and the final outcome indicating whether the patient has diabetes (1 for Yes and 0 for No).
 
 ## 2. Data Understanding 
-The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Data_diabetes.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. [[The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.]]
+The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Data_diabetes.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
 
 * Original Dataset
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="600">
  
-| Name | Modeling Role | Measurement Level| Description|
+| Name | Modeling Role | Measurement Level| Description |
 | ---- | ------------- | ---------------- | ---------- |
 | **Pregnancies** | input | int64 | To express the Number of pregnancies of the patient |
 | **Glucose** | input | int64 | To express the Glucose level in the blood of the patient|
