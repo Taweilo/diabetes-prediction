@@ -53,11 +53,16 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 * Outcome Distribution
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.3%20Outcome%20distribution.jpg" width="600">
  
+| Outcome | Count | Note         |
+| ------- | ----- | ------------ |
+| **0**   | 500   | No Diabetes  |
+| **1**   | 268   | Diabetes     |
+ 
 ## 3. Data Preparation 
 1. Define variables (X and y) 
-2. Split the data into train and test datasets <br>
-   train: **2727 data<br>
-   test:  **1819 data<br>
+2. Split the data into train and test datasets; 40% of test data <br>
+   train: 460 data<br>
+   test:  308 data<br>
   
 ## 4. Modeling   
 Several machine learning models were included. Among all, KNN, Regression Tree, and Random Forest proceeded hyperparameter tuning for better performance:
