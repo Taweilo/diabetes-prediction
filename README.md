@@ -36,10 +36,10 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 | **Glucose** | input | int64 | To express the Glucose level in the blood of the patient|
 | **BloodPressure** | input | int64 | To express the Blood pressure measurement of the patient |
 | **SkinThickness** | input | int64 | To express the thickness of the skin of the patient |
-| **Insulin** | input | int64| To express the Insulin level in the blood of the patient |
+| **Insulin** | input | int64 | To express the Insulin level in the blood of the patient |
 | **BMI** | input | float64 | To express the Body mass index of the patient |
 | **DiabetesPedigreeFunction** | input | float64  | To express the Diabetes percentage of the patient |
-| **Age** | input | float | To express the age of the patient |
+| **Age** | input | int64 | To express the age of the patient |
 | **Outcome** | target | binary | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
 
 * Statistics
@@ -49,28 +49,29 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/pairplot.jpg" width="400">
  
 ## 3. Data Preparation 
-1. Define variables (X and y)
-2. Get dummy variables 
-3. Split the data into train and test datasets <br>
-   train: 2727 data<br>
-   test:  1819 data<br>
+1. Define variables (X and y) 
+2. Split the data into train and test datasets <br>
+   train: **2727 data<br>
+   test:  **1819 data<br>
   
 ## 4. Modeling   
    <img src="https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/6026b7494be6481c635b0f84_axkJOrqGKDEK3a6U4mf8fRr5t0FKQIVvbJhDFVFyINVnpkEcv54vLydIg4BOcmyl-cSRakxD3L5-JR8GXMuNU67F5eTXD7ZpL6-MEekv50k8lkEMvIT8ludrUxWOjhAZ8i1_-7eY.png" width="400">
    
 The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance. However, the model performance is highly associated with the data type. Several models were included for further evaluation:
 
-* SVM
 * Logistic regression
+* Gaussian model
+* SVM
 * KNN
-* Decision Tree
-* Random Forest
+* Regression Tree
 * Random Forest with Tuning
-* Adaboost
-
   
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
+
+
+
+ 
  
 ## 6. Recommendation
 ### Inferencing
