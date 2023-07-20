@@ -51,7 +51,7 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="1100">
 
 * Outcome Distribution
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="400">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.3%20Outcome%20distribution.jpg" width="400">
  
 ## 3. Data Preparation 
 1. Define variables (X and y) 
