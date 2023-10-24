@@ -50,7 +50,7 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 | **Outcome** | target | binary | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
 
 * Statistics
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="1000">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.2%20Statistics.jpg" width="1000">
  
 * Pairplot
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="1000">
