@@ -33,7 +33,9 @@ The goal of this project is to develop a predictive model for diabetes based on 
 The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset (also please see Data_diabetes.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target class variable was shown.
 
 * Original Dataset
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="600">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="1000">
+
+* Data Dictionary
  
 | Name | Modeling Role | Measurement Level| Description |
 | ---- | ------------- | ---------------- | ---------- |
@@ -48,13 +50,13 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: https://w
 | **Outcome** | target | binary | To express the final result 1 is Yes and 0 is No Diabetes of the patient |
 
 * Statistics
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="600">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.1%20Dataset.jpg" width="1000">
  
 * Pairplot
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.4%20Pairplot.png" width="1000">
 
 * Outcome Distribution
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.3%20Outcome%20distribution.jpg" width="600">
+ <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/2.3%20Outcome%20distribution.jpg" width="1000">
  
 | Outcome | Count | Note         |
 | ------- | ----- | ------------ |
