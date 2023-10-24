@@ -77,9 +77,9 @@ Several machine learning models were included. Among all, KNN, Regression Tree, 
 * Random Forest with Tuning
   
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.1%20Evaluation.jpg" width="500" >
+<img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.1%20Evaluation.jpg" width="500" >
  
- * Random Forest has the best performance. The best hyperparameter is: 
+* Random Forest has the best performance. The best hyperparameter is: 
  
 ``` {'n_estimators': 200,
  'min_samples_split': 10,
@@ -88,10 +88,10 @@ Several machine learning models were included. Among all, KNN, Regression Tree, 
  'max_depth': 5,
  'bootstrap': True}
 ```
- * Out-of-sample Accuracy of Random Forest:  0.76; Out-of-sample AUC:  0.83; True Positive Rate: 54.1% and False Positive Rate 11.7%.
+* Out-of-sample Accuracy of Random Forest:  0.76; Out-of-sample AUC:  0.83; True Positive Rate: 54.1% and False Positive Rate 11.7%.
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.2%20RF%20Confusion%20Matrix.jpg" width="500" >
  
- * Feature importance can be shown: Glucose in the blood is the most important feature. 
+* Feature importance can be shown: Glucose in the blood is the most important feature. 
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.3%20Feature%20importance.jpg" width="500" >
  
  
