@@ -78,10 +78,10 @@ Several machine learning models were included. Among all, KNN, Regression Tree, 
   
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Diabetes_Prediction/blob/main/Image/5.1%20Evaluation.jpg" width="500" >
+ 
  * Random Forest has the best performance. The best hyperparameter is: 
  
-```
- {'n_estimators': 200,
+``` {'n_estimators': 200,
  'min_samples_split': 10,
  'min_samples_leaf': 4,
  'max_features': 'log2',
